@@ -3,7 +3,10 @@
 .nav-link{color: #fff;font-size: 24px;line-height: 34px;text-transform: uppercase;font-weight: 600;letter-spacing: 0.5px;}    .dropdown-menu{background-color: transparent!important;border:none !important}
 .dropdown-item { font-size: 1.2rem;line-height: 29px;letter-spacing: 0.5px;color:#fff}
 .dropdown-item:hover{background-color:transparent; color:#fff}
-
+.navContent .main span{color: #3c7cf1 !important;font-weight: 600;font-size: 17px;text-transform: capitalize;}
+.navContent li span{color:#fff}
+.navContent >li{margin:0 0 1rem}
 @media (max-width: 991.98px) {
 	.navCustom {padding:1.30rem}
+	.navContent >li{margin:0 0 1rem}
 }
