@@ -23,10 +23,11 @@ body {background: #ccc;font-family: arial, verdana, tahoma;color:#fff;}
 .clientComptxt span{color:#fff;font-size:2rem; font-weight:600;text-transform:uppercase;}
 .clientComp{margin:0 auto}
 .clientComptxt{padding:3rem 3rem 3rem 0 !important}
-.clientComptxt p{color:#fff;font-size: 0.8rem;line-height: 22px;padding: 20px 0;letter-spacing: 0.5px;}
+.clientComptxt p, .clientWants p{color:#fff;font-size: 0.8rem;line-height: 22px;padding: 20px 0;letter-spacing: 0.5px;}
 .image_title p, .btn-pill{display:none !important;}
 .image_title p, .btn-pill{color:#fff;text-align:left;}
 .accordian li:hover .image_title{top:0;text-align:left;padding:20px 30px}
 .accordian li:hover .titleName{padding:20px 0;font-size:2rem;font-weight:600;}
 .accordian li:hover .image_title p, .accordian li:hover .btn-pill{display:block !important;}
-.btn-pill{border-radius: 30px;padding: 10px 30px !important;border-color: #fff;color: #fff;width:40%;text-align:center;}
+.btn-pill,.getinTOuch{border-radius: 30px;padding: 10px 30px !important;border-color: #fff;color: #fff;width:40%;text-align:center;}
+.clientComp h2{color:#fff;font-weight:600;font-size:2rem;text-align:right;text-transform:uppercase;}
