@@ -22,11 +22,11 @@ export class WorkedwithComponent implements OnInit {
     nav: true,
     responsive: {
       0: {
-        items: 1
+        items: 3
       },
   
       600: {
-        items: 3
+        items: 4
       },
   
       1024: {

@@ -1,0 +1,10 @@
+<div class="owl-slider cardlider">
+    <h2> Who we work with</h2>
+    <div id="carousel" class="owl-carousel">
+        <owl-carousel [options]="SlideOptions" [items]="Images">
+            <div class="item" *ngFor="let img of Images">
+                <img src={{img}} alt="">
+            </div>
+        </owl-carousel>
+    </div>
+</div>

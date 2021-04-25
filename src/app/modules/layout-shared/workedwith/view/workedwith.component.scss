@@ -12,8 +12,18 @@ span {font-size: 70px;position: relative;top: -5px;}
 .cardlider .item img {border-radius: 8%;height: 170px;width: 170px;}
 .cardlider h2{text-align:center;font-size:2rem;font-weight:600;text-transform:uppercase;color:#fff}
 .clientComptxt span{color:#fff;font-size:2rem; font-weight:600;text-transform:uppercase;}
-.clientComp{margin:0 auto;background-color: #096fc7;}
+.clientComp{margin:0 auto !important;background-color: #096fc7;}
 .clientComptxt{padding:3rem 3rem 3rem 0 !important}
 .clientComptxt p, .clientWants p{color:#fff;font-size: 0.8rem;line-height: 22px;padding: 20px 0;letter-spacing: 0.5px;}
 .clientComp h2{color:#fff;font-weight:600;font-size:2rem;text-align:right;text-transform:uppercase;}
 .btn-pill,.getinTOuch{border-radius: 30px;padding: 10px 30px !important;border-color: #fff;color: #fff;width:40%;text-align:center;}
+.wntmar{margin:3rem}
+.wnt{padding:3rem}
+@media (max-width: 991.98px) {
+	.clientComp{padding:1.30rem}
+	.wnt{padding:1rem}
+	.wntmar{margin:1rem}
+	.cardlider h2{text-align:center;margin:0}
+	.clientComp h2{text-align:center;margin:0}
+	.getinTOuch{width: 55%;margin: 0 auto;display: block;}
+}

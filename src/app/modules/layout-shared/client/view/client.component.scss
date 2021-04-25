@@ -31,3 +31,10 @@ body {background: #ccc;font-family: arial, verdana, tahoma;color:#fff;}
 .accordian li:hover .image_title p, .accordian li:hover .btn-pill{display:block !important;}
 .btn-pill,.getinTOuch{border-radius: 30px;padding: 10px 30px !important;border-color: #fff;color: #fff;width:40%;text-align:center;}
 .clientComp h2{color:#fff;font-weight:600;font-size:2rem;text-align:right;text-transform:uppercase;}
+.wnt{padding:3rem}
+@media (max-width: 991.98px) {
+	.clientComp{padding:1.30rem}
+	.wnt{padding:1rem}
+	.clientComp h2{text-align:center;margin:0}
+	.getinTOuch{width: 55%;margin: 0 auto;display: block;}
+}
