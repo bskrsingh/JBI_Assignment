@@ -1,0 +1,181 @@
+/* reset css here */
+@import './var';
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: $font_M !important;
+    box-sizing: border-box;
+    word-break: break-word;
+}
+
+textarea {
+    resize: none !important;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+figure,
+footer,
+header,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    &.dialog {
+        overflow: hidden;
+    }
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    // @include t-transition(all 0.3s ease-in-out);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font_M !important;
+}
+
+.pl0 {
+    padding-left: 0 !important;
+}
+
+.ml0 {
+    margin-left: 0;
+}
+
+@mixin clearfix() {
+    &::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+}
+
+::-webkit-scrollbar {
+    // @include m-anonywidth(4px, 4px);
+}
+
+::-webkit-scrollbar-track {
+    background: $thm_b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $thm_lb;
+    // @include m-radius(15px);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $thm_c;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px $thm_lb inset !important;
+    box-shadow: 0 0 0 30px $thm_lb inset !important;
+    -webkit-text-fill-color: $white70 !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mt28 {
+    margin-top: 28px !important;
+}
+
+.pl0 {
+    padding-left: 0 !important;
+}
+
+.pd0 {
+    padding: 0 !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+// @include placeholder {
+//     color: $white70 !important;
+// }
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mr15 {
+    margin-right: 15px !important;
+}
+
+.mr20 {
+    margin-right: 20px !important;
+}
