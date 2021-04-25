@@ -6,6 +6,7 @@ import { FooterModule } from '../layout-shared/footer/footer.module';
 import { RouterModule, Routes } from '@angular/router';
 import { BannerModule } from '../layout-shared/banner/banner.module';
 import { ClientModule } from '../layout-shared/client/client.module';
+import { WorkedWithModule } from '../layout-shared/workedwith/worked-with.module';
 
 const routes: Routes = [
   {
@@ -24,6 +25,7 @@ const routes: Routes = [
     FooterModule,
     BannerModule,
     ClientModule,
+    WorkedWithModule,
     RouterModule.forChild(routes)
   ]
 })

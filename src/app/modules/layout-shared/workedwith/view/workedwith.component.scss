@@ -1,0 +1,19 @@
+.owl-nav button {position: absolute;top: 50%;background-color: #000;color: #fff;margin: 0;transition: all 0.3s ease-in-out;}
+.owl-nav button.owl-prev {left: 0;}
+.owl-nav button.owl-next {right: 0;}
+.owl-dots {text-align: center;padding-top: 15px;}
+.owl-dots button.owl-dot {width: 15px;height: 15px;border-radius: 50%;display: inline-block;background: #ccc;margin: 0 3px;}
+.owl-carousel{display:block !important;padding:35px 0;}
+.owl-dots button.owl-dot.active {background-color: #000;}
+.owl-dots button.owl-dot:focus {outline: none;}
+.owl-nav button {position: absolute;top: 50%;transform: translateY(-50%);background: rgba(255, 255, 255, 0.38) !important;}
+span {font-size: 70px;position: relative;top: -5px;}
+.owl-nav button:focus {outline: none;}
+.cardlider .item img {border-radius: 8%;height: 170px;width: 170px;}
+.cardlider h2{text-align:center;font-size:2rem;font-weight:600;text-transform:uppercase;color:#fff}
+.clientComptxt span{color:#fff;font-size:2rem; font-weight:600;text-transform:uppercase;}
+.clientComp{margin:0 auto;background-color: #096fc7;}
+.clientComptxt{padding:3rem 3rem 3rem 0 !important}
+.clientComptxt p, .clientWants p{color:#fff;font-size: 0.8rem;line-height: 22px;padding: 20px 0;letter-spacing: 0.5px;}
+.clientComp h2{color:#fff;font-weight:600;font-size:2rem;text-align:right;text-transform:uppercase;}
+.btn-pill,.getinTOuch{border-radius: 30px;padding: 10px 30px !important;border-color: #fff;color: #fff;width:40%;text-align:center;}
