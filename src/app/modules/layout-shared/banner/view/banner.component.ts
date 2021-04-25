@@ -20,6 +20,7 @@ export class BannerComponent implements OnInit {
     nav: false,
     navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">']
   } 
+  
   //CarouselOptions = { items: 3, dots: true, nav: true }; 
 
   constructor() { }
